@@ -1,0 +1,11 @@
+<ul>
+  {{#each article}}
+  <li>
+    <p>
+      {{this.id}}. {{this.article}}
+
+      <button data-articleid="{{this.id}}" class="comment">Add a comment</button>
+    </p>
+  </li>
+  {{/each}}
+</ul>
